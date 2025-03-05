@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: LangChain4J Demo
+
+langchain4j:
+  ollama:
+    chat-model:
+      base-url: http://localhost:11434
+      model-name: deepseek-r1:8b
